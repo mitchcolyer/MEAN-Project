@@ -1,0 +1,35 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "First package created",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "engines": {
+    "node": "~0.10.13",
+    "npm": "~1.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitchcolyer/MEAN-Project.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Mitch Colyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitchcolyer/MEAN-Project/issues"
+  },
+  "homepage": "https://github.com/mitchcolyer/MEAN-Project#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^1.1.0"
+  }
+}
