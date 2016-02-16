@@ -1,10 +1,10 @@
 {
-  "name": "package",
+  "name": "project",
   "version": "1.0.0",
   "description": "First package created",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node app.js"
   },
   "engines": {
     "node": "~0.10.13",
